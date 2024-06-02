@@ -1,0 +1,209 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: sans-serif;
+    background-color: rgb(255, 255, 255);
+    color: rgb(41, 41, 41);
+}
+
+.sidebar{
+    position: fixed;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100px;
+    height: 100%;
+    padding: 40px 10px 30px 10px;
+    border-right: 1px solid #919191;
+    cursor: pointer;
+    transition: all 0,4s;
+}
+
+nav{
+    width: 100%;
+    margin-bottom: 16px;
+}
+.logo-img{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    transition: transform 0.4s;
+}
+.logo-img:hover{
+    transform: scale(1.5);
+}
+
+.botao{
+    width: 25px;
+    height: 25px;
+    transition: transform 0.4s;
+}
+.botao:hover{
+    transform: scale(1.5);
+}
+
+.input-1{
+    width: 70px;
+    height: 30px;
+}
+
+
+header{
+    margin-left: 160px;
+    margin-right: 6px;
+    overflow: hidden;
+}
+main{
+    margin-left: 160px;
+    margin-right: 6px;
+    overflow: hidden;
+}
+
+.texto{
+    font-size: small;
+    color: #585858;
+
+}
+.textinho{
+    font-size: small;
+    color: #585858;
+    margin-left: 15px;
+}
+.Tutorials{
+    font-size: small;
+    color: #585858;
+    margin-left: 5px;
+}
+
+
+header {
+    margin-left: 100px;
+    margin-right: 6px;
+    overflow: hidden;
+    background-color: white; 
+    padding: 20px; 
+    border: 1px solid white; 
+    border-radius: 10px; 
+    
+    display: flex; 
+    flex-direction: row; 
+    
+}
+
+.header-links,.header-2 {
+    flex: 1; 
+    padding: 20px; 
+    background-color: #fff; 
+    border-radius: 10px; 
+}
+
+.frase {
+    font-size: 18px; 
+    font-weight: bold;
+    margin-bottom: 10px; 
+    color: #f948ff;
+}
+
+.input-header {
+    width: 100%; 
+    padding: 10px; 
+    border: 1px solid #ddd; 
+    border-radius: 10px;
+}
+
+
+
+
+
+
+.Angular{
+    margin-top: 40px;
+    margin-bottom: 30px;
+    margin-left: 190px;
+    margin-right: 6px;
+}
+.Learn{
+    width: 200px;
+    height: 70px;
+    border-radius: 10px;
+    border-color: #ff31d2;
+    background-color: white;
+    font-family: sans-serif;
+    color: #585858;
+    font-size: 16pt;
+    align-items: center;
+    margin-left: 420px;
+    margin-top: 90px;
+    margin-bottom: 10px;
+
+}
+.seta{
+    margin-top: 20px;
+    margin-left:  500px;
+    align-items: center;
+    margin-bottom: 100px;
+    display: inline-block
+}
+
+.Works{
+    margin-right: 6px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    margin-left: 280px;
+    font-family: sans-serif;
+    color: black;
+    font-size: 60px;
+}
+.Works-2{
+    margin-right: 6px;
+    margin-left: 150px;
+    font-family: sans-serif;
+    color: #585858;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+.love{
+    margin-right: 6px;
+    margin-top: 100px;
+    margin-left: 280px;
+    margin-bottom: 10px;
+    font-family: sans-serif;
+    color: black;
+    font-size: 60px;
+}
+.love-2{
+    margin-right: 6px;
+    margin-left: 100px;
+    font-family: sans-serif;
+    color: #585858;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+.money{
+    margin-right: 6px;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    margin-left: 280px;
+    font-family: sans-serif;
+    color: black;
+    font-size: 60px;
+}
+.money-2{
+    margin-right: 6px;
+    margin-left: 80px;
+    font-family: sans-serif;
+    color: #585858;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+
+
+@media (width < 920px){
+    .sidebar{
+        width: 72px;
+    }
+}
